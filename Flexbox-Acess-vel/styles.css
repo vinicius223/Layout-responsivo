@@ -1,0 +1,31 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribui as caixas igualmente */
+}
+
+.caixa {
+    flex: 1; /* Todas as caixas têm o mesmo tamanho */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.caixa img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos adicionais para melhor visualização */
+.caixa {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+p {
+    margin: 10px 0 0;
+}

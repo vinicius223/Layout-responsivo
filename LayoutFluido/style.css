@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.coluna {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.coluna1 {
+    flex: 1;
+}
+
+.coluna2 {
+    flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .coluna {
+        width: 100%;
+    }
+}
